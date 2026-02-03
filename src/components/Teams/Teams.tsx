@@ -9,7 +9,6 @@ import banai from "../../assets/teams/BAN_AI.jpg";
 import banktmt from "../../assets/teams/BAN_KY_THUAT_MAY_TINH.jpg";
 import baniot from "../../assets/teams/BAN_IOT.jpg";
 import bantruyenthong from "../../assets/teams/BAN_TRUYEN_THONG.jpg";
-import banhaucan from "../../assets/teams/BAN_HAU_CAN.jpg";
 import bandoingoai from "../../assets/teams/BAN_DOI_NGOAI.jpg";
 import { useState } from "react";
 
@@ -48,7 +47,7 @@ const teams = [
   },
 
   {
-    name: "BAN WEB",
+    name: "BAN WEB3",
     activate:
       "Phát triển và duy trì các dự án liên quan đến lập trình web, giảng dạy các công nghệ và kỹ thuật liên quan.",
     leader: "Mai Thành Đạt",
@@ -59,7 +58,7 @@ const teams = [
     name: "BAN LẬP TRÌNH GAME",
     activate:
       "Tạo môi trường học tập và làm việc cho những bạn muốn theo hướng phát triển game (programmer, artist, designer). Thường tổ chức chia đội để tham gia những sự kiện GameJam (GameJam VietNam, GMTK GameJam)",
-    leader: "Trịnh Thành Nam",
+    leader: "Nguyễn Việt Hoàng",
     image: bangame,
     icon: "/src/assets/teams/BAN_GAME_ICON.svg",
   },
@@ -83,7 +82,7 @@ const teams = [
     name: "BAN IOT",
     activate:
       "Nghiên cứu và phát triển các dự án về Internet of Things, giảng dạy và chia sẻ kiến thức về các thiết bị kết nối. Tham gia các cuộc thi cấp trường, ngoài trường.",
-    leader: "Nguyễn Quốc Khánh",
+    leader: "Hoàng Trường Dũng",
     image: baniot,
     icon: "/src/assets/teams/BAN_IOT_ICON.svg",
   },
@@ -96,18 +95,10 @@ const teams = [
     icon: "/src/assets/teams/BAN_TRUYEN_THONG_ICON.svg",
   },
   {
-    name: "BAN HẬU CẦN",
-    activate:
-      "Đảm bảo các hoạt động và sự kiện của CLB diễn ra suôn sẻ, quản lý các công việc hậu cần và chuẩn bị cơ sở vật chất.",
-    leader: "Nguyễn Thùy Linh",
-    image: banhaucan,
-    icon: "/src/assets/teams/BAN_HAU_CAN_ICON.svg",
-  },
-  {
-    name: "BAN ĐỐI NGOẠI",
+    name: "BAN SỰ KIỆN",
     activate:
       "Chịu trách nhiệm thiết lập và duy trì mối quan hệ với các doanh nghiệp và các câu lạc bộ khác, tổ chức sự kiện, đồng thời tìm kiếm cơ hội hợp tác và tài trợ cho câu lạc bộ.",
-    leader: "Trịnh Công Đức",
+    leader: "Nguyễn Thùy Linh",
     image: bandoingoai,
     icon: "/src/assets/teams/BAN_DOI_NGOAI_ICON.svg",
   },

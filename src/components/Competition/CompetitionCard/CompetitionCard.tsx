@@ -12,7 +12,7 @@ interface CompetitionCard {
 function CompetitionCard({card}:  CompetitionCard) {  
     
     return (
-        <div className="relative w-[400px] h-[300px] shadow-[0px_2px_2px_2px_rgba(0,0,0,0.25)]
+        <div className="relative w-[260px] sm:w-[300px] md:w-[340px] lg:w-[380px] xl:w-[400px] h-[300px] shadow-[0px_2px_2px_2px_rgba(0,0,0,0.25)]
                         border-2 border-[#39906A] rounded-3xl 
                         overflow-hidden group"
             >

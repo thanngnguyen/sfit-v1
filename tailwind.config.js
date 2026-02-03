@@ -17,6 +17,10 @@ export default {
           '0%': { transform: 'translateX(0%)' },
           '100%': { transform: 'translateX(-35%)' },
         },
+        eventCarousel: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
         reverseCarousel: {
           '0%': { transform: 'translateX(-35%)' },
           '100%': { transform: 'translateX(0%)' },

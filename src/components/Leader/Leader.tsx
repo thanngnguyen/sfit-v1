@@ -5,37 +5,37 @@ import Leader2 from "../../assets/leaders/6_Admin_2.jpg";
 import Leader3 from "../../assets/leaders/6_Admin_3.jpg";
 import Leader4 from "../../assets/leaders/6_Admin_4.jpg";
 
-const chunhiem =   {
-    "name": "Hoàng Mạnh Khiêm",
-    "position": "Chủ nhiệm",
-    "image": Leader1,
-    "facebook": "https://www.facebook.com/hoangmanhkhiem.IT",
-    "email": "https://www.facebook.com/hoangmanhkhiem.IT"
-  }
+const chunhiem = {
+  name: "Hoàng Mạnh Khiêm",
+  position: "Chủ nhiệm",
+  image: Leader1,
+  facebook: "https://www.facebook.com/hoangmanhkhiem.IT",
+  email: "https://www.facebook.com/hoangmanhkhiem.IT",
+};
 
 const leadersData = [
   {
-    "name": "Nguyễn Văn Hoàng",
-    "position": "Phó chủ nhiệm",
-    "image": Leader3,
-    "facebook": "https://www.facebook.com/zunohoang",
-    "email": "https://www.facebook.com/zunohoang"
-  },
-    {
-    "name": "Phạm Thành An",
-    "position": "Phó chủ nhiệm",
-    "image": Leader2,
-    "facebook": "https://www.facebook.com/an.thanh.2403",
-    "email": "https://www.facebook.com/an.thanh.2403"
+    name: "Nguyễn Văn Hoàng",
+    position: "Phó chủ nhiệm",
+    image: Leader3,
+    facebook: "https://www.facebook.com/zunohoang",
+    email: "https://www.facebook.com/zunohoang",
   },
   {
-    "name": "Nguyễn Công Thắng",
-    "position": "Phó chủ nhiệm",
-    "image": Leader4,
-    "facebook": "https://www.facebook.com/thangnguyen.0703",
-    "email": "https://www.facebook.com/thangnguyen.0703"
-  }
-]
+    name: "Hà Thị Thúy Hiên",
+    position: "Phó chủ nhiệm",
+    image: Leader2,
+    facebook: "https://www.facebook.com/hien.ha.htth.09",
+    email: "https://www.facebook.com/hien.ha.htth.09",
+  },
+  {
+    name: "Nguyễn Công Thắng",
+    position: "Phó chủ nhiệm",
+    image: Leader4,
+    facebook: "https://www.facebook.com/thangnguyen.0703",
+    email: "https://www.facebook.com/thangnguyen.0703",
+  },
+];
 
 const centerStyle = {
   transform: "scale(1.2)",
