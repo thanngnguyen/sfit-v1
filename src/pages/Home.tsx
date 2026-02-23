@@ -20,10 +20,7 @@ function Home() {
   };
 
   const handleVideo = () => {
-    window.open(
-      "https://www.facebook.com/watch/?mibextid=UalRPS&v=1038642307267589&rdid=VPR7mRUpAYq98Og6",
-      "_blank"
-    );
+    window.open("https://www.facebook.com/share/v/1CH2opBTnD/", "_blank");
   };
 
   const handleDetail = () => {
